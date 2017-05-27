@@ -1,0 +1,232 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .feature-area .col-sm-6,
+    .album-area .col-sm-4,
+    .news-area .col-sm-6 {
+        padding: 0 15px;
+        margin-bottom: 30px;
+    }
+    .feature-area .row,
+    .album-area .row,
+    .news-area .row {
+        margin: 0 -15px;
+    }
+    .menu > ul > li {
+        margin: 0 25px 0 0;
+    }
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 960px) and (max-width: 991px) {
+    .hidden-sm {
+        display: block !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .news-details h3 {
+        font-size: 22px;
+        margin-bottom: 6px;
+        text-transform: capitalize;
+    }
+    .feature-area .col-sm-6,
+    .album-area .col-sm-4,
+    .news-area .col-sm-6 {
+        padding: 0 15px;
+        margin-bottom: 30px;
+    }
+    .feature-area .row,
+    .album-area .row,
+    .news-area .row {
+        margin: 0 -15px;
+    }
+    .event-area .event-price {
+        margin-left: 70px;
+    }
+    .event-area .event-ticket {
+        margin-top: 25px;
+    }
+    .feature-text h3,
+    .event-details h2 {
+        font-size: 24px;
+    }
+    .jp-time-holder {
+        right: 70%;
+    }
+    .menu > ul {
+        height: 500px;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+    .menu > ul > li {
+        margin: 0 26px 0 0;
+    }
+    .menu > ul > li > a > span {
+        display: none;
+    }
+    .main-video {
+        height: 350px;
+    }
+    #cvideo {
+        width: auto;
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width: 960px) and (max-width: 990px) {
+    .menu ul {
+        height: auto;
+        overflow: inherit;
+    }
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .page-title {
+        font-size: 12px;
+    }
+    .page-title h2 {
+        margin-bottom: 20px;
+        padding-bottom: 40px;
+        font-size: 30px;
+    }
+    .header-text-area h2 {
+        font-size: 20px;
+    }
+    .header-text-area p {
+        width: 75%;
+        font-size: 14px;
+    }
+    .news-details h3 {
+        font-size: 20px;
+    }
+    .social-link {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .feature-area .col-sm-6,
+    .album-area .col-sm-4,
+    .news-area .col-sm-6 {
+        padding: 0 15px;
+        margin-bottom: 15px;
+    }
+    .feature-area .row,
+    .album-area .row,
+    .news-area .row {
+        margin: 0 -15px;
+    }
+    .event-area .event-photo {
+        float: none;
+        width: 100%;
+    }
+    .event-photo > img {
+        width: 100%;
+    }
+    .event-area .event-ticket {
+        float: none;
+        margin-top: 30px;
+        width: 100%;
+    }
+    .event-price h2 {
+        font-size: 35px;
+    }
+    .event-ticket a.bttn {
+        padding: 10px 20px;
+        margin-top: 10px;
+    }
+    .event-area .event-price {
+        margin-left: 10px;
+    }
+    .event-details > h2 {
+        font-size: 22px;
+    }
+    .jp-playlist {
+        width: 230px;
+    }
+    .menu > ul > li > a > span {
+        display: none;
+    }
+    .menu-mobile > img {
+        width: 200px;
+    }
+    .menu > ul {
+        height: 300px;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+    .home2 .page-title,
+    .home2 .news-area .fix {
+        display: block;
+    }
+    .home2 .mail-subscribe input {
+        margin-right: 0;
+        width: 100%;
+    }
+    .com-input {
+        margin: 10px 0 0;
+        width: 100%;
+    }
+    .home2 .page-title {
+        text-align: center;
+        margin-bottom: 20px;
+        padding-bottom: 10px
+    }
+    .home2 .page-title h2 {
+        background: none;
+        float: none;
+        padding: 0;
+        margin: 0;
+        padding-bottom: 20px;
+    }
+    .main-video {
+        height: 300px;
+    }
+    #cvideo {
+        width: auto;
+        height: 100%;
+    }
+    .error-page .header-area,
+    .error-page .footer-area {
+        padding: 5px 0;
+    }
+    .comingsoon h3 {
+        margin-bottom: 10px;
+    }
+    .comingsoon p {
+        display: none;
+    }
+    .count-down {
+        margin-bottom: 20px;
+    }
+    .comingsoon .mail-subscribe {
+        margin-top: 10px;
+    }
+    .counter ul li {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+    .counter ul li span {
+        font-size: 26px;
+    }
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .page-title h2 {
+        font-size: 40px;
+    }
+    .header-text-area h2 {
+        font-size: 36px;
+    }
+    .header-text-area p {
+        width: 75%;
+        font-size: 16px;
+    }
+}

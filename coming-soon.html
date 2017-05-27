@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<!--[if IE 7 ]>
+<html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>
+<html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>
+<html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="zxx" class="no-js">
+<!--<![endif]-->
+<!-- =========================================
+head
+========================================== -->
+
+
+<!-- Mirrored from devitfamily.com/html/mixmusic/coming-soon.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 May 2017 12:43:23 GMT -->
+<head>
+    <!-- =========================================
+    Basic
+    ========================================== -->
+    <meta charset="utf-8">
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <![endif]-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="" />
+    <meta name="keywords" content="album, artist, band, awesome music site,online music template, html music player, mp3 player,music html, music shop, music studio, mixmusic,music template,music website,song template" />
+    <meta name="author" content="BDEXPERT" />
+    <title>Mixmusic</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/ico" href="images/favicon.png" />
+    <!-- FontAwesome Icon -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <!-- =========================================
+    CSS
+    ========================================== -->
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/pogo-slide.css">
+    <link rel="stylesheet" href="css/prettyPhoto.css">
+    <link rel="stylesheet" href="css/plugin.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- =========================================
+    Head Libs
+    ========================================== -->
+    <script src="js/vandor/modernizr-2.8.3.min.js"></script>
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="js/vandor/html5shiv.js"></script>
+    <script src="js/vandor/respond.min.js"></script>
+    <![endif]-->
+</head>
+<!-- /head -->
+<!-- =========================================
+body
+========================================== -->
+
+<body class="error-page home2">
+    <header class="header-area">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-xs-12">
+                    <div class="logo">
+                       <a href="index-2.html"> <img src="images/logo.png" alt="mixmusic"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <!-- Social Menu Link -->
+                    <div class="social-link text-center">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-soundcloud"></i></a>
+                        <a href="#"><i class="fa fa-youtube"></i></a>
+                        <a href="#"><i class="fa fa-vimeo"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
+                <div class="comingsoon">
+                    <h3>WE’ll BE BACK SOON</h3>
+                    <div class="counter">
+                        <ul>
+                            <li><span id="cday"></span>days</li>
+                            <li><span id="chours"></span>hours</li>
+                            <li><span id="cminutes"></span>minutes</li>
+                            <li><span id="cseconds"></span>seconds</li>
+                        </ul>
+                    </div>
+                    <p>OUR WEBSITE IS COMING SOON. WE’LL BE HERE SOON WITH
+                        <br /> OUR NEW IMAGINATION, SUBSCRIBE TO BE NOTIFIED.</p>
+                    <!--Mail Subscribe Form Start -->
+                    <div class="mail-subscribe">
+                        <form action="#">
+                            <input type="email" placeholder="Email Address">
+                            <button type="button" class="bttn bttn-sm">Get Update</button>
+                        </form>
+                    </div>
+                    <!--Mail Subscribe Form End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-xs-12">
+                    <div class="footer-logo">
+                        <img src="images/footer-wh-logo.png" alt="mixmusic">
+                    </div>
+                    <p class="copyright">&copy;Copyright <a href="https://themeforest.net/user/bdexpert">BDEXPERT</a> All Right Reserved. Design by <a href="https://themeforest.net/user/themeuk">ThemeUK.</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- =========================================
+    JAVASCRIPT
+    ========================================== -->
+    <script src="js/vandor/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- =========================================
+    Plugin
+    ========================================== -->
+    <script src="js/jplayer.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/countdown.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/pogo-slider.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/plugin.js"></script>
+    <script src="js/main.js"></script>
+    <script type="text/javascript">
+        $('.comingsoon').countdown('2017/12/31', function (event) {
+            var offset = event.offset;
+            $('#cday').text(offset.totalDays);
+            $('#chours').text(''.concat(offset.hours < 10 ? '0' : '', offset.hours));
+            $('#cminutes').text(''.concat(offset.minutes < 10 ? '0' : '', offset.minutes));
+            $('#cseconds').text(''.concat(offset.seconds < 10 ? '0' : '', offset.seconds));
+        });
+    </script>
+</body>
+
+
+<!-- Mirrored from devitfamily.com/html/mixmusic/coming-soon.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 May 2017 12:43:23 GMT -->
+</html>
